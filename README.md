@@ -50,5 +50,42 @@ Space Complexity =>O(1)
 
 
 ```
+## 4)Longest Number at Least Twice in Array
+
+```
+		//Largest element in an array is greater than or equal
+		//to other element in array
+		
+		int arr[] = {3,-2,4,7,8,24};
+		int largestElementTwice = largestElementTwice(arr);
+		System.out.println(largestElementTwice);  // index of maxElemnt is 5
+
+
+public static int largestElementTwice(int[] arr) {
+
+		int max = Integer.MIN_VALUE;
+		int maxIndex = -1;
+
+		for (int i = 0; i < arr.length; i++) {
+			if (max < arr[i]) {
+				maxIndex = i;
+			}
+                }
+
+		for (int i = 0; i < arr.length; i++) {
+				if (maxIndex != i && arr[maxIndex] < 2 * arr[i]) {
+				return -1;
+			        }
+               }
+		return maxIndex;
+		}
+
+```
+## 4)Reverse Array
+
+```
+
+```
+
 
 
