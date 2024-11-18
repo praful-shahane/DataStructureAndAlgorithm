@@ -80,6 +80,9 @@ public static int largestElementTwice(int[] arr) {
 		return maxIndex;
 		}
 
+Time Complexixty=>O(n) i.e. we use for loop to find out max as well as check.
+Space Complexity =>O(1)
+
 ```
 ## 4)Reverse Array
 
