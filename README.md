@@ -163,6 +163,9 @@ step 3)reverse the elements after k elements.  reverse(arr,k,n-1)
 
 	  }
 
+Time Complexixty=>O(n) i.e. we use for loop to find out max as well as check.
+Space Complexity =>O(1)
+
 ```
 
 ### 5.B)Rotate the Array from last to first by K times
