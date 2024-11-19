@@ -219,3 +219,9 @@ Time Complexixty=>O(n) i.e. we use for loop to find out max as well as check.
 Space Complexity =>O(1)
 
 ```
+
+## 6)Count no. of elements having one element greater than itself
+
+```
+
+```
